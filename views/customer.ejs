@@ -1,0 +1,18 @@
+<%- include("partials/header"); -%>
+<div class="cont">
+<form action="/user/login" class="form-signin" method="POST">
+    <img class="mb-4" src="https://i.pinimg.com/736x/cd/1b/a9/cd1ba9a4e3b580fe27d275e2892e5bb4--flower-tattoos-tattoo-ideas.jpg" alt="" width="72" height="72" style="margin: 0 100px">
+    <h1 class="h3 mb-3 font-weight-normal"  style="margin: 5px 102px">Log In</h1>
+    
+    <input type="text" name="username" class="form-control top" placeholder="User Name" required autofocus>
+    <input type="password" name="password" class="form-control bottom" placeholder="Password" required>
+    <div class="checkbox mb-3">
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Log In</button>
+   <p class="mt-5 mb-3 text-muted"  style="margin: 5px 100px">&copy; 2018-2019</p>
+   <h3 class="h3 mb-3 font-weight-normal"  style="margin: 5px 100px"><a href="/user/signup">Sign In?</a></h3>
+  </form>
+  </div>
+
+
+<%- include("partials/footer"); -%>
